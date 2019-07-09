@@ -13,3 +13,4 @@
 * Machine States:
   > MachineStarting, MachineStartingFood, MachineDoneFood, MachineEnding
 * Customers and cooks are multithread. Machines are multithread and each machine contains some threads because each machine can cook multi food.
+* Simulation can share orders and machines, but they should be synchronized.

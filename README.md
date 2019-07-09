@@ -5,7 +5,7 @@
 * Two roles in restaurant: Customer and Cook
 * Only cook way is using Machine
 * When all cooks are busy which means all machines are full, the next order should wait util there are some machines free.
-* When the number of customers is equal to the capacity, the restaurant is full. The next customer should wait util there is someone finishing his meal and leave.
+* When the number of customers is equal to the capacity, the restaurant is full. The next customer should wait util there is someone finishing his meal and leaving.
 * Customer States:
   > CustomerStarting, CustomerEntered, CustomerPlacedOrder, CustomerReceivedOrder, CustomerLeaving
 * Cook States:
